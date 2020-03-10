@@ -5,10 +5,10 @@
 		public $year;
 		public $description;
 
-		public function __construct($name, $price, $year) {
-			$this->name = $name;
-			$this->price = $price;
-			$this->year = $year;
+		public function __construct($_name, $_price, $_year) {
+			$this->name = $_name;
+			$this->price = $_price;
+			$this->year = $_year;
 		}
 
 		public function getInformation() {

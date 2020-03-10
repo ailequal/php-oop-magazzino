@@ -4,9 +4,9 @@
 	class Computer extends Product {
 		public $operativeSystem;
 
-		public function __construct($name, $price, $year, $operativeSystem) {
-			parent::__construct($name, $price, $year);
-			$this->operativeSystem = $operativeSystem;
+		public function __construct($_name, $_price, $_year, $_operativeSystem) {
+			parent::__construct($_name, $_price, $_year);
+			$this->operativeSystem = $_operativeSystem;
 		}
 	}
 ?>
